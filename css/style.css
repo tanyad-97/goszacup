@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+    --borderStyle: 1px solid #E4E7F2;
+    --colorFontCaption: #909EBB;
+    --colorFontTable: #334059;
+    --backgroundMap: #EFF0F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.tabBoxWrapper {
+    padding: 40px 0;
+
+}
+
+.table__cell {
+    color: var(--colorFontTable);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    border-top: var(--borderStyle);
+    border-bottom: var(--borderStyle);
+}
+
+table th.table__cell-header {
+    padding: 15px 0;
+    line-height: 16px;
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--colorFontCaption);
+}
+
+table td.table__cell-body {
+    padding: 25px 0;
+    padding-right: 40px;
+}
+
+.content-site-map {
+    width: 100%;
+    background: var(--backgroundMap);
+}
+
+.card-wrapper {
+    padding: 2em;
+    background: #fff;
+}
+
+.content-map {
+    border-right: 1px solid #E4E7F2;
+}
+
+
+.content-map__icon-block {
+    position: absolute;
+    right: 0;
+    padding-right: 1.2vw;
+    top: 15px
+}
+
+.content-map__icon-block a:not(:last-child) {
+    margin-right: .45rem
+}
+
+.content-map__header {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #E4E7F2;
+}
+
+.content-map__title {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    color: #909EBB;
+}
+
+.content-map__title--right {
+    padding-right: 1em;
+}
+
+.content-map__header-value {}
+
+.content-map__number--assent {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    color: #0065DD;
+    padding-right: 1em;
+}
+
+.content-map__title--assent {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #334059;
+}
+
+.content-map__body {
+    padding-top: 10px;
+}
+
+.content-map__body-value {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #334059;
+    padding-bottom: 10px;
+}
+
+a.content-map__body-value {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.content-map__price-block {}
+
+.price-block__value--assent {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.content-map__data-block {
+    padding-top: 75px;
+}
+
+.data-block__value {
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.content-map__link-item {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #0065DD;
+    padding-bottom: 1em;
+}
